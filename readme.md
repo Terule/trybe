@@ -6,8 +6,6 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 
 ## Introdução - Desenvolvimento Web ✅
 
----
-
 #### Bloco 1: Introdução - Unix & Shell
 
 - [ ] 1-3: Unix & Bash - Part 1
