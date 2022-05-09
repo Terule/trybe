@@ -16,14 +16,18 @@ ul {
 .style-background {
   background-color: aqua;
 }
+a{
+  text-decoration: none;
+}
 p {
   font-family: 'Courier New', Courier, monospace;
   font-weight: 600;
-  font-size: 4em;
+  font-size: 3em;
   font-style: italic;
+  size: 3em;
 }
 li {
-  line-height: 20px;
+  line-height: 30px;
 }
 #yellow {
   background-color: yellow;
