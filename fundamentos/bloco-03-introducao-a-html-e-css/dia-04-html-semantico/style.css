@@ -10,7 +10,7 @@ ul {
   list-style: none;
 }
 
-.prize li{
+.prize li {
   display: inline-block;
 }
 
@@ -20,6 +20,7 @@ ul {
   height: 50px;
   text-align: center;
   width: 200px;
+  margin: auto;
 }
 
 .second {
