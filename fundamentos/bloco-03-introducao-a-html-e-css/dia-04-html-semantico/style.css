@@ -6,6 +6,10 @@ section {
   text-align: center;
 }
 
+ul {
+  list-style: none;
+}
+
 .first {
   background-color: rgb(235, 200, 84);
   font-size: 20px;
