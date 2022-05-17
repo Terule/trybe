@@ -34,7 +34,8 @@ function megaSena(jogo, numerosEscolidos) {
     }
   }
 
-  //compara o array de números sorteados com o array de números escolhidos. Se o número sorteado estiver no array de números escolhidos, imprima na tela
+  //compara o array de números sorteados com o array de números escolhidos. 
+  //Se o número sorteado estiver no array de números escolhidos, imprima na tela.
   for (let i = 0; i < numerosSorteados.length; i++) {
     for (let j = 0; j < numerosEscolidos.length; j++) {
       if (numerosSorteados[i] == numerosEscolidos[j]) {
