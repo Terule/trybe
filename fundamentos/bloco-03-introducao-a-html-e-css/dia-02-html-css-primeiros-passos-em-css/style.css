@@ -1,0 +1,40 @@
+body {
+  font-size: 16px;
+  font-style: normal;
+}
+h1 {
+  font-size: 65px;
+  color: orange;
+  font-family: sans-serif;
+  text-align: center;
+  text-decoration: underline;
+}
+ul {
+  background-color: aquamarine;
+  list-style: none;
+}
+.style-background {
+  background-color: aqua;
+}
+a{
+  text-decoration: none;
+}
+p {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 600;
+  font-size: 3em;
+  font-style: italic;
+  size: 3em;
+}
+li {
+  line-height: 30px;
+}
+#yellow {
+  background-color: yellow;
+}
+#red {
+  background-color: red;
+}
+#brown {
+  background-color: brown;
+}
