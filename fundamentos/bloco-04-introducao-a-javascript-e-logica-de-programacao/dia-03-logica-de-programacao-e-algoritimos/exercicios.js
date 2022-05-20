@@ -74,3 +74,5 @@ function isPrime(num) {
   return true
 }
 console.log(findBiggestPrime(100))
+
+//fim
