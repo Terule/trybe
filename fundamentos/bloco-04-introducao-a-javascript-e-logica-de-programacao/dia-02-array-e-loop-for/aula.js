@@ -3,7 +3,7 @@
 let jogo = 6
 let numerosEscolidos = [25, 9, 43, 34, 15, 57]
 
-function megaSena(jogo, numerosEscolidos) {
+function megaSena(jogo, numerosEscolhidos) {
   let numerosSorteados = []
   let acertos = 0
 
@@ -15,8 +15,8 @@ function megaSena(jogo, numerosEscolidos) {
 
   //Verifica se o número sorteado está no array de números escolhidos
   function verificaNumero(numero) {
-    for (let i = 0; i < numerosEscolidos.length; i++) {
-      if (numero == numerosEscolidos[i]) {
+    for (let i = 0; i < numerosEscolhidos.length; i++) {
+      if (numero == numerosEscolhidos[i]) {
         return true
       } else {
         return false
@@ -37,8 +37,8 @@ function megaSena(jogo, numerosEscolidos) {
   //compara o array de números sorteados com o array de números escolhidos. 
   //Se o número sorteado estiver no array de números escolhidos, imprima na tela.
   for (let i = 0; i < numerosSorteados.length; i++) {
-    for (let j = 0; j < numerosEscolidos.length; j++) {
-      if (numerosSorteados[i] == numerosEscolidos[j]) {
+    for (let j = 0; j < numerosEscolhidos.length; j++) {
+      if (numerosSorteados[i] == numerosEscolhidos[j]) {
         acertos += 1
       }
     }
